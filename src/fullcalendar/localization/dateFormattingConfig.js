@@ -43,7 +43,8 @@ const getDateFormattingConfig = () => {
 			timeGridDay: defaultConfig,
 			timeGridWeek: defaultConfig,
 			listMonth: {
-				listDayFormat: 'LL, DDDD',
+				listDayFormat: 'LL, dddd',
+				listDaySideFormat: false,
 			},
 		},
 	}
