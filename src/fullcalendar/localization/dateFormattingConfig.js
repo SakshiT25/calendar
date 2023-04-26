@@ -22,7 +22,7 @@
 
 /**
  * Returns the date-formatting config for FullCalendar
- *
+ **
  * @return {object}
  */
 const getDateFormattingConfig = () => {
@@ -42,7 +42,8 @@ const getDateFormattingConfig = () => {
 			},
 			timeGridDay: defaultConfig,
 			timeGridWeek: defaultConfig,
-			listMonth: {
+			listMonth: { 
+				//Changes for the List View 
 				listDayFormat: 'LL, dddd',
 				listDaySideFormat: false,
 			},
